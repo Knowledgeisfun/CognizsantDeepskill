@@ -1,5 +1,4 @@
-package test.java.com.example;
-
+package com.example; // Make sure it says exactly this
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;

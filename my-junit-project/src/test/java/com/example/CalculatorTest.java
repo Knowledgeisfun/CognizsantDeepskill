@@ -1,5 +1,4 @@
-package test.java.com.example;
-import main.java.com.example.Calculator;
+package com.example; // Make sure it says exactly thisimport main.java.com.example.Calculator;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

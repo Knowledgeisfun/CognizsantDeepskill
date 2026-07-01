@@ -1,6 +1,5 @@
-package test.java.com.example;
+package com.example; // Make sure it says exactly this
 
-import main.java.com.example.ExternalApi;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import static org.mockito.Mockito.*;

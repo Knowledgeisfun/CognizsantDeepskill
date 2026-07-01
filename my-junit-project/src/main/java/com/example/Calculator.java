@@ -1,5 +1,4 @@
-package main.java.com.example;
-
+package com.example; // Make sure it says exactly this
 public class Calculator {
 
     

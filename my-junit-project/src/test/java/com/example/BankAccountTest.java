@@ -1,6 +1,4 @@
-package test.java.com.example;
-
-import main.java.com.example.BankAccount;
+package com.example; // Make sure it says exactly this
 
 import org.junit.After;
 import org.junit.Before;
