@@ -9,7 +9,7 @@ public class MyServiceTest {
     @Test 
     public void testExternalApi() { 
         // STEP 1: Create a mock object for the external API.
-        ExternalApi mockApi = mock(ExternalApi.class); 
+        ExternalApi mockApi  = mock(ExternalApi.class); 
         
         // STEP 2: Stub the methods to return predefined values.
         when(mockApi.getData()).thenReturn("Mock Data"); 

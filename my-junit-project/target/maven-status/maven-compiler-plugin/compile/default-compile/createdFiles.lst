@@ -3,3 +3,4 @@ com\example\BankAccount.class
 com\example\ExternalApi.class
 com\example\App.class
 com\example\Calculator.class
+com\example\SLF4JExample.class
