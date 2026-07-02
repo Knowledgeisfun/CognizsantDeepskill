@@ -15,6 +15,12 @@ public class Country {
         LOGGER.debug("Inside Country Constructor.");
     }
 
+    public Country(String code, String name) {
+        LOGGER.debug("Inside Parametraized Country Constructor.");
+        this.code = code;
+        this.name = name;
+    }
+
     // Getters and Setters with logs
     public String getCode() {
         LOGGER.debug("Inside getCode method.");
