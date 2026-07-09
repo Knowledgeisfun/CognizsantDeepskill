@@ -1,5 +1,5 @@
 com\showroom\repository\CarRepository.class
-com\showroom\service\CarService.class
 com\showroom\controller\CarController.class
 com\showroom\model\Car.class
+com\showroom\service\CarService.class
 com\showroom\CarApiApplication.class
