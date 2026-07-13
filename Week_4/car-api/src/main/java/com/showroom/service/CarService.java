@@ -28,4 +28,9 @@ public class CarService {
     public List<Car> getCarsBySegment(String segment) {
         return carRepository.findBySegment(segment);
     }
+
+    public Car getCarById(long id) {
+        // findById returns an Optional, so we say "return the car, or return null if it doesn't exist"
+        return carRepository.findById(id).orElse(null);
+    }
 }
